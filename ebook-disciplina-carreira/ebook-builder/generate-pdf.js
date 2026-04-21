@@ -16,7 +16,7 @@ const __dirname = path.dirname(__filename);
   
   // Gera o PDF
   await page.pdf({
-    path: path.join(__dirname, '../public/a-cruz-de-cristo-daniel-filho.pdf'),
+    path: path.join(__dirname, '../../public/A-Disciplina-na-Carreira-Crista.pdf'),
     format: 'A5',
     preferCSSPageSize: true, /* ISSO FAZ O PUPPETEER OBEDECER O @page margin do CSS */
     printBackground: true,
