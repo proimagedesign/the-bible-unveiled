@@ -14,7 +14,7 @@ export default function AdminLogin() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    if (login(user.trim(), pass)) {
+    if (login(user.trim(), pass.trim())) {
       navigate("/admin", { replace: true });
     } else {
       setError("Usuário ou senha inválidos.");
@@ -57,6 +57,7 @@ export default function AdminLogin() {
           </div>
 
           {error && <p className="text-sm text-red-300">{error}</p>}
+          <p className="text-xs text-blue-200/80">Dica: usuário <strong>admin</strong> · senha <strong>123</strong></p>
 
           <Button
             type="submit"
