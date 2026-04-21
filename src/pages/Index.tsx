@@ -35,7 +35,7 @@ const ebooks = [
     subtitle: "O Fim dos Tempos e a Glória de Cristo",
     author: "Daniel Filho",
     cover: escatologiaCover,
-    url: "#",
+    url: "/escatologia-dispensacionalista-daniel-filho.pdf",
     description: "Uma análise bíblica sobre as últimas coisas e a esperança da volta de Cristo.",
     accent: "#d4af37", // Matching its original gold if needed, but using Burgundy/Gold theme
     slogan: "Soli Deo Gloria"
@@ -46,7 +46,7 @@ const ebooks = [
     subtitle: "O Caminho da Santificação",
     author: "Daniel Filho",
     cover: disciplinaCover,
-    url: "#",
+    url: "/Conheca-a-Disciplina-Crista-Daniel-Filho.pdf",
     description: "O chamado bíblico para a vida de disciplina, piedade e crescimento espiritual.",
     accent: "#c9a84c",
     slogan: "Coram Deo"
