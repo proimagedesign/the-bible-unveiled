@@ -19,35 +19,13 @@ const ebooks = [
     slogan: "Sola Scriptura"
   },
   {
-    id: "cruz",
-    title: "A Cruz de Cristo",
-    subtitle: "A doutrina da Expiação Substitutiva",
-    author: "Daniel Filho",
-    cover: cruzCover,
-    url: "/a-cruz-de-cristo-daniel-filho.pdf",
-    description: "Uma jornada profunda sobre o evento central da fé cristã e o sacrifício de Jesus.",
-    accent: "#c9a84c",
-    slogan: "Solus Christus"
-  },
-  {
-    id: "escatologia",
-    title: "Escatologia",
-    subtitle: "O Fim dos Tempos e a Glória de Cristo",
-    author: "Daniel Filho",
-    cover: escatologiaCover,
-    url: "/escatologia-dispensacionalista-daniel-filho.pdf",
-    description: "Uma análise bíblica sobre as últimas coisas e a esperança da volta de Cristo.",
-    accent: "#d4af37", // Matching its original gold if needed, but using Burgundy/Gold theme
-    slogan: "Soli Deo Gloria"
-  },
-  {
-    id: "disciplina",
-    title: "Disciplina Cristã",
+    id: "disciplina-carreira",
+    title: "A Disciplina na Carreira Cristã",
     subtitle: "O Caminho da Santificação",
     author: "Daniel Filho",
     cover: disciplinaCover,
-    url: "/Conheca-a-Disciplina-Crista-Daniel-Filho.pdf",
-    description: "O chamado bíblico para a vida de disciplina, piedade e crescimento espiritual.",
+    url: "/A-Disciplina-na-Carreira-Crista.pdf",
+    description: "O chamado bíblico para a vida de disciplina, piedade e crescimento espiritual na jornada com Cristo.",
     accent: "#c9a84c",
     slogan: "Coram Deo"
   }
@@ -74,7 +52,7 @@ const Index = () => {
           </p>
         </header>
 
-        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-2 max-w-6xl mx-auto">
+        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-2 max-w-4xl mx-auto">
           {ebooks.map((ebook) => (
             <section 
               key={ebook.id}
