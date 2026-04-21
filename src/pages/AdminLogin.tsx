@@ -57,6 +57,7 @@ export default function AdminLogin() {
           </div>
 
           {error && <p className="text-sm text-red-300">{error}</p>}
+          <p className="text-xs text-blue-200/80">Dica: usuário <strong>admin</strong> · senha <strong>123</strong></p>
 
           <Button
             type="submit"
