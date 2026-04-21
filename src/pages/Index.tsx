@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
-import { Download, BookOpen, Check } from "lucide-react";
+import { Download, BookOpen, Check, Lock } from "lucide-react";
+import { Link } from "react-router-dom";
 import cover from "@/assets/ebook-cover.jpg";
 
 const PDF_URL = "/Conheca-a-Biblia-Daniel-Filho.pdf";
@@ -97,6 +98,16 @@ const Index = () => {
           © Daniel Filho — Soli Deo Gloria
         </footer>
       </div>
+
+      {/* Acesso administrativo discreto */}
+      <Link
+        to="/admin/login"
+        aria-label="Acesso administrativo"
+        title="Admin"
+        className="fixed bottom-3 left-3 z-50 inline-flex items-center gap-1 rounded-md bg-white/5 hover:bg-white/15 border border-white/10 px-2 py-1 text-[10px] text-blue-200/70 hover:text-white transition-colors backdrop-blur-sm"
+      >
+        <Lock className="h-3 w-3" /> ADM
+      </Link>
     </main>
   );
 };
