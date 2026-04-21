@@ -14,7 +14,7 @@ export default function AdminLogin() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    if (login(user.trim(), pass)) {
+    if (login(user.trim(), pass.trim())) {
       navigate("/admin", { replace: true });
     } else {
       setError("Usuário ou senha inválidos.");
