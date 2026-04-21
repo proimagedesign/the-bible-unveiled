@@ -19,8 +19,43 @@ export type Ebook = {
 };
 
 import cover1 from "@/assets/ebook-cover.jpg";
+import cover2 from "@/assets/ebook-cover-disciplina.jpg";
 
 export const ebooks: Ebook[] = [
+  {
+    id: "a-disciplina-crista",
+    title: "A Disciplina Cristã",
+    subtitle: "Correr para Ganhar — 1 Coríntios 9.24-27",
+    author: "Daniel Filho",
+    pages: 47,
+    cover: cover2,
+    pdfUrl: "/Conheca-a-Disciplina-Crista-Daniel-Filho.pdf",
+    description:
+      "Estudo expositivo em 12 capítulos sobre 1 Coríntios 9.24-27: disciplina, perseverança e propósito na vida cristã, com mestres da Igreja e lições do esporte (Oscar Schmidt, Bolt, Phelps, Kobe).",
+    status: "publicado",
+    createdAt: "2026-04-21",
+    source: `# A Disciplina Cristã — Correr para Ganhar
+Autor: Daniel Filho
+Texto-base: 1 Coríntios 9.24-27
+
+## Prefácio — Antes de Começarmos
+## Introdução — Por que falar de disciplina?
+## Cap. 1 — A Pista de Corinto
+## Cap. 2 — Todos Correm, Um Leva
+## Cap. 3 — Coroa Corruptível, Coroa Incorruptível
+## Cap. 4 — Não Como Quem Bate no Ar
+## Cap. 5 — Esmurro o Meu Corpo
+## Cap. 6 — Mestres da Disciplina
+## Cap. 7 — Disciplina e Graça
+## Cap. 8 — Os Hábitos do Atleta Espiritual
+## Cap. 9 — Treino, Treino, Treino
+## Cap. 10 — Quando o Treino Pesa
+## Cap. 11 — Disciplina, Família e Igreja
+## Cap. 12 — A Coroa Diante de Nós
+## Sobre o Autor
+## Bibliografia
+`,
+  },
   {
     id: "conheca-a-biblia",
     title: "Conheça a Bíblia",
