@@ -20,8 +20,55 @@ export type Ebook = {
 
 import cover1 from "@/assets/ebook-cover.jpg";
 import cover2 from "@/assets/ebook-cover-disciplina.jpg";
+import cover3 from "@/assets/ebook-cover-dispensacionalismo.jpg";
 
 export const ebooks: Ebook[] = [
+  {
+    id: "dispensacionalismo-progressivo",
+    title: "O Dispensacionalismo Progressivo",
+    subtitle: "Continuidade e cumprimento — uma leitura cristocêntrica da história da redenção",
+    author: "Daniel Filho",
+    pages: 51,
+    cover: cover3,
+    pdfUrl: "/Dispensacionalismo-Progressivo-Daniel-Filho.pdf",
+    description:
+      "Manual em 15 capítulos sobre o Dispensacionalismo Progressivo (Blaising, Bock, Saucy): hermenêutica literal complementar, alianças, Reino em duas fases, Igreja e Israel, Milênio cristocêntrico e diálogo com a Teologia da Aliança.",
+    status: "publicado",
+    createdAt: "2026-04-23",
+    source: `# O Dispensacionalismo Progressivo — Continuidade e cumprimento
+Autor: Daniel Filho
+
+## Prefácio — Antes de começarmos
+## Introdução — Por que falar de Dispensacionalismo Progressivo?
+
+## PARTE I — Raízes e contexto
+## Cap. 1 — O que é dispensacionalismo?
+## Cap. 2 — Darby, Scofield e o dispensacionalismo clássico
+## Cap. 3 — A revisão de Ryrie e o dispensacionalismo modificado
+## Cap. 4 — O surgimento do Dispensacionalismo Progressivo
+
+## PARTE II — Fundamentos teológicos
+## Cap. 5 — Hermenêutica: literal complementar
+## Cap. 6 — As alianças bíblicas e sua progressão
+## Cap. 7 — O Reino de Deus em duas fases
+## Cap. 8 — Cristo, o cumprimento das promessas
+
+## PARTE III — Igreja, Israel e escatologia
+## Cap. 9 — A Igreja: novo povo ou nova fase do povo de Deus?
+## Cap. 10 — Israel no plano redentor
+## Cap. 11 — O arrebatamento e a tribulação revisitados
+## Cap. 12 — O Milênio cristocêntrico
+
+## PARTE IV — Diálogos e aplicações
+## Cap. 13 — Diálogo com a Teologia da Aliança
+## Cap. 14 — Implicações pastorais e missionárias
+## Cap. 15 — Conclusão: ler a Bíblia com Cristo no centro
+
+## Sobre o autor
+## Glossário
+## Bibliografia
+`,
+  },
   {
     id: "a-disciplina-crista",
     title: "A Disciplina Cristã",
